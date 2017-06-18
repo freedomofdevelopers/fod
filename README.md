@@ -4,7 +4,9 @@ Please put domains of websites and web apps you need as a developer that somehow
 fod.backtory.com:8118
 
 * FOD.ppx
+
 Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application trough fod.backtory.com proxy.
+
 * All other addresses that are not defined in "domains" file will route directly.
 
 
