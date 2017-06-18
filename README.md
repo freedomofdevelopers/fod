@@ -1,13 +1,28 @@
-# FOD
-Freedom of Developers
+
+توسعه اندروید، بدون زجر!
+از همان ابتدای توسعه اندروید، توسعه دهندگان ایرانی با مشکل تحریم شدن ایران از طرف گوگل مواجه بوده اند. این تحریم بیشترین تاثیر خود را در بارگیری بسته‌های توسعه اندروید از طریق SDK Manager می‌گذاشت. با فراگیر شدن مخزن jCenter برای بارگذاری کتابخانه‌های متن باز اندروید، مشکل بارگیری این کتابخانه‌ها نیز به مشکلات قبلی اضافه شده است.
+اکنون بکتوری با ارائه یک proxy server، قصد دارد تا دردی از دردهای توسعه دهندگان ایرانی را دوا کند! تنها با تنظیم کردن آدرس ip و port می‌توانید به راحتی از سایت‌هایی مانند developer.android.com و developer.google.com بازدید کنید و از dl.google.com و bintray.com/jcenter بارگیری کنید. این proxy server تنها برای تعداد خاصی از آدرسها عمل می‌کند. لیست کامل این سایت ها در فایل domains آمده است.
+
+چجوری استفاده کنیم؟
+پروکسی سرور به آدرس  fod.backtory.comو پورت 8118
+شما می‌توانید proxy server را روی سیستم عامل یا مرورگر خود پیکربندی کنید. چنانچه تنظیمات را روی سیستم عامل اعمال کنید، کروم برای تمامی عملیات از این تنظیمات استفاده خواهد کرد. اما پیشنهاد ما استفاده از FoxyProxy است که به شما اجازه می‌دهد در مرورگر به راحتی بین proxyهایی که تعریف کرده اید سوییچ کنید. پلاگین FoxyProxy برای Chrome، FireFox، Safari، Opera، Edge و IE موجود است.
 
 
-Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
+پیکربندی برای SDK Mananger
+SDK Manager.exe را اجرا کنید، از منوی Tools قسمت Options را انتخاب کنید و آدرس و پورت گفته شده را وارد کنید. چنانچه از SDK Manager خود Android Studio استفاده میکنید، در تنظمیات IDE به
+ Appearance & Behavior -> System Settings -> Http Proxy رفته و آدرس و پورت را وارد کنید. 
 
-fod.backtory.com:8118
+پیکربندی Gradle
+اندروید استودیو زمان sync کردن پروژه این امکان را به شما می‌دهد که تنظیمات proxy IDE را برای Gradle نیز استفاده کنید، اما این تنظیمات را در gradle.properties پروژه اعمال می‌کند. پیشنهاد ما این است که این تنظیمات را (http and https proxy) از این فایل برداشته و در gradle.properties که در پوشه‌ی home شما در زیرپوشه .gradle قرار دارد وارد کنید تا برای همه پروژه ها اعمال شود.
+
+ما Unity کارها چی؟
+سایت‌ unity3d.com و تمام مشتقات آن مانند بخش مستندات و فروم از طریق این proxy server قابل دسترسی‌اند!
 
 
+راه حل دم دست تر هم  استفاده از ترانس پرنت پراکسیه
 
-# FOD.ppx
-Import this file in proxyfire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application trough fod.backtory.com proxy.
-* All other addresses that are not defined in "domains" file will route directly.
+می تونید برای مک و ویندوز proxyfire رو دانلود کنید و با ایمپورت کردن FOX.ppx   از این پروکسی استفاده کنید.
+این طوری آدرس های تایین شده از پروکسی و مابفی همه مستقیم روت میشند.
+
+
+Happy Coding 
