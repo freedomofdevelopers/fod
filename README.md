@@ -1,4 +1,7 @@
+
 # FOD
+![alt text](https://backtory.com/landingpageComponents/images/H40pxB.png)
+
 Freedom of Developers
 Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
 fod.backtory.com:8118
@@ -51,7 +54,7 @@ All other addresses that are not defined in "domains" file will route directly.
 <p lang="fa" dir="rtl" align="right">توجه داشته باشید که این سرویس فقط برای دور زدن تحریم‌ها ساخته شده و سایت‌هایی که تحریم نکردند یا فیلتر شدن از این سرویس قابل دسترسی نیست.</p>
 <h2 lang="fa" dir="rtl" align="right">اطلاعات سرویس</h2>
 <p lang="fa" dir="rtl" align="right">برای استفاده از پراکسی می‌توانید از این آدرس و پورت استفاده کنید</p>
-```bash
+```
 address: fod.backtory.com
 port:8118
 ```
@@ -62,7 +65,7 @@ port:8118
 <p lang="fa" dir="rtl" align="right">وارد setting شوید، در لینوکس از منوی file (ویندوز و مک هم شبیه هستند)<br>در کادر جست‌جو عبارت proxy وارد کنید تا صفحه http proxy آورده شود<br>گزینه Manual proxy configuration انتخاب کنید سپس http<br>در مقابل Host name آدرس پراکسی و در مقابل Port number پورت گفته شده وارد کنید</p>
 <h2 lang="fa" dir="rtl" align="right">Gradle</h2>
 <p lang="fa" dir="rtl" align="right">در فایل gradle.properties خط‌های زیر را به همراه اطلاعات پراکسی اضافه کنید</p>
-```bash
+```
 systemProp.http.proxyHost=fod.backtory.com
 systemProp.http.proxyPort=8118
 ```
