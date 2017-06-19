@@ -39,19 +39,22 @@ All other addresses that are not defined in "domains" file will route directly.
 *.khanacademy.org
 *.oracle.com
 *.storage.googleapis.com
+*.themeforest.net
 *.download.virtualbox.org
-*.hub.docker.com
-*.mongodb.org
+*.sun.com
+*.mongodb.com
+*.envato.com
 *.adobe.com
+*.idaas.iam.ibm.com
 *.vmware.com
-*.toggl.com
-*.cloud.docker.com
+*.docker.com
 *.googlesource.com
 *.polymer-project.org
+*.udemy.com
 *.material.io
 *.teamviewer.com
 *.intel.com
-.developer.chrome.com
+*.developer.chrome.com
 ```
 
 <p lang="fa" dir="rtl" align="right">سرورهای بکتوری در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
