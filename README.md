@@ -53,14 +53,17 @@ All other addresses that are not defined in "domains" file will route directly.
 *.intel.com
 .developer.chrome.com
 ```
+
 <p lang="fa" dir="rtl" align="right">سرورهای بکتوری در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
 <p lang="fa" dir="rtl" align="right">توجه داشته باشید که این سرویس فقط برای دور زدن تحریم‌ها ساخته شده و سایت‌هایی که تحریم نکردند یا فیلتر شدن از این سرویس قابل دسترسی نیست.</p>
 <h2 lang="fa" dir="rtl" align="right">اطلاعات سرویس</h2>
 <p lang="fa" dir="rtl" align="right">برای استفاده از پراکسی می‌توانید از این آدرس و پورت استفاده کنید</p>
+
 ```
 address: fod.backtory.com
 port:8118
 ```
+
 <p lang="fa" dir="rtl" align="right">کافیست اطلاعات بالا در تنظیمات پراکسی برنامه مورد نظر خود وارد کنید.</p>
 <h2 lang="fa" dir="rtl" align="right">افزودن به سرویس</h2>
 <p lang="fa" dir="rtl" align="right">اگر از سایت یا سرویسی استفاده می‌کنید که ایران تحریم کرده ولی در این سرویس نیست می‌توانید با زدن ایشو یا افزودن دامین مورد نظر در فایل domains همین ریپو و پول ریکوست به ما اعلام کنید تا اضافش کنیم.</p>
@@ -68,10 +71,12 @@ port:8118
 <p lang="fa" dir="rtl" align="right">وارد setting شوید، در لینوکس از منوی file (ویندوز و مک هم شبیه هستند)<br>در کادر جست‌جو عبارت proxy وارد کنید تا صفحه http proxy آورده شود<br>گزینه Manual proxy configuration انتخاب کنید سپس http<br>در مقابل Host name آدرس پراکسی و در مقابل Port number پورت گفته شده وارد کنید</p>
 <h2 lang="fa" dir="rtl" align="right">Gradle</h2>
 <p lang="fa" dir="rtl" align="right">در فایل gradle.properties خط‌های زیر را به همراه اطلاعات پراکسی اضافه کنید</p>
+
 ```
 systemProp.http.proxyHost=fod.backtory.com
 systemProp.http.proxyPort=8118
 ```
+
 <p lang="fa" dir="rtl" align="right">در فایل توجه داشته باشید که اگر از ریپازیتوری‌ای جز jcenter استفاده کنید احتمال داره به مشکل بخورید.<br>در صورت امکان از ترنسپرنت پراکسی استفاده کنید و فقط دامین‌های موجود رو از پراکسی رد کنید.<br> در صورتی که با gradle به مشکل خوردید به ما بگید تا دنبال راه حل بهتری باشیم.</p>
 <h2 lang="fa" dir="rtl" align="right">فایرفاکس</h2>
 <p lang="fa" dir="rtl" align="right"><a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard</a><br>foxyproxy یه پلاگین برای فایرفکس و  فکر کنم کروم هست که می‌تونید خیلی راحت و دم دستی تنظیمات پراکسی رو توش تغییر بدید.<br>پلاگین رو نصب کنید، add new proxy رو بزنید، تنظیمات پراکسی رو وارد کنید و ذخیره کنید.<br>از قسمت مود پراکسی‌ای که ساختید رو فعال کنید.</p>
