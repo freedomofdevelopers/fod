@@ -10,7 +10,7 @@ All other addresses that are not defined in "domains" file will route directly.
 
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 <p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. بکتوری با فراهم کردن یک پراکسی سرور رایگان سعی دارد در چارچوب قوانین کشور به شما کمک کند تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
-```bash
+```
 *.developer.android.com
 *.atlassian.com
 *.bintray.com
