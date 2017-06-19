@@ -24,10 +24,11 @@
 .flurry.com
 .softlayer.com
 .download.virtualbox.org
-.hub.docker.com
 .sun.com
 .dev.mysql.com
 .mongodb.org
+.mongodb.com
+.envato.com
 .adobe.com
 .apps.admob.com
 .cp.maxcdn.com
@@ -38,7 +39,7 @@
 .netbeans.org
 .vmware.com
 .toggl.com
-.cloud.docker.com
+.docker.com
 .googlesource.com
 .idaas.iam.ibm.com
 .polymer-project.org
