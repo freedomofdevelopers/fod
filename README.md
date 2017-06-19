@@ -12,7 +12,7 @@ fod.backtory.com:8118
 Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application trough fod.backtory.com proxy.
 All other addresses that are not defined in "domains" file will route directly.
 
-
+<h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 ```
 *.developer.android.com
 *.atlassian.com
