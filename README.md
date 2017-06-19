@@ -39,19 +39,22 @@ All other addresses that are not defined in "domains" file will route directly.
 *.khanacademy.org
 *.oracle.com
 *.storage.googleapis.com
+*.themeforest.net
 *.download.virtualbox.org
-*.hub.docker.com
-*.mongodb.org
+*.sun.com
+*.mongodb.com
+*.envato.com
 *.adobe.com
+*.idaas.iam.ibm.com
 *.vmware.com
-*.toggl.com
-*.cloud.docker.com
+*.docker.com
 *.googlesource.com
 *.polymer-project.org
+*.udemy.com
 *.material.io
 *.teamviewer.com
 *.intel.com
-.developer.chrome.com
+*.developer.chrome.com
 ```
 
 <p lang="fa" dir="rtl" align="right">سرورهای بکتوری در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
@@ -85,8 +88,8 @@ systemProp.http.proxyPort=8118
 
 <h2 lang="fa" dir="rtl" align="right">Chrome</h2>
 <p lang="fa" dir="rtl" align="right"><a href="https://github.com/FelisCatus/SwitchyOmega/releases">https://github.com/FelisCatus/SwitchyOmega/releases</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. بعد از وارد کردن اطلاعات پراکسی apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیماتی داره که چه سایت‌هایی از چه پراکسی‌ای رد شند می‌تونید بگید سایت‌هایی که در این سوریس وجود دارند از این پراکسی رد شند و بقیه سایت‌ها به روش دیگری</p>
-<h2 lang="fa" dir="rtl" align="right">ProxyFire</h2>
-<p lang="fa" dir="rtl" align="right">با پراکسی فایر در لینوکس و مک یه جورایی میشه یه ترنسپرنت پراکسی راه انداخت و بدون اینکه برای بقیه برنامه‌ها تنظیماتی انجام داد ترافیکشون رو از پراکسی رد کنید همچنین اگر با gradle به مشکل خوردید احتمالا این روش جواب گو خواهد بود<br>با یک جستجو در اینترنت  یه نسخه از برنامه رو دانلود کنید و سپس فایل fox.ppx در همین ریپازیتوری را دانلود و در برنامه ایمپورت کنید.</p>
+<h2 lang="fa" dir="rtl" align="right">Proxyfire</h2>
+<p lang="fa" dir="rtl" align="right">با پراکسی فایر در ویندوز و مک یه جورایی میشه یه ترنسپرنت پراکسی راه انداخت و بدون اینکه برای بقیه برنامه‌ها تنظیماتی انجام داد ترافیکشون رو از پراکسی رد کنید همچنین اگر با gradle به مشکل خوردید احتمالا این روش جواب گو خواهد بود<br>با یک جستجو در اینترنت  یه نسخه از برنامه رو دانلود کنید و سپس فایل fox.ppx در همین ریپازیتوری را دانلود و در برنامه ایمپورت کنید.</p>
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
 

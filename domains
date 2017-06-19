@@ -41,7 +41,6 @@
 .toggl.com
 .docker.com
 .googlesource.com
-.idaas.iam.ibm.com
 .polymer-project.org
 .udemy.com
 .material.io
@@ -50,3 +49,5 @@
 .developer.chrome.com
 .backtory.com
 .github.com
+.maven.org
+.jitpack.io
