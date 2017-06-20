@@ -73,14 +73,18 @@ port:8118
 <p lang="fa" dir="rtl" align="right">اگر از سایت یا سرویسی استفاده می‌کنید که ایران تحریم کرده ولی در این سرویس نیست می‌توانید با زدن ایشو یا افزودن دامین مورد نظر در فایل domains همین ریپو و پول ریکوست به ما اعلام کنید تا اضافش کنیم.</p>
 <h2 lang="fa" dir="rtl" align="right">Android Studio</h2>
 <p lang="fa" dir="rtl" align="right">وارد settings شوید، در لینوکس از منوی file (ویندوز و مک هم شبیه هستند)<br>در کادر جست‌جو عبارت proxy وارد کنید تا صفحه http proxy آورده شود<br>گزینه Manual proxy configuration انتخاب کنید سپس http<br>در مقابل Host name آدرس پراکسی و در مقابل Port number پورت گفته شده وارد کنید</p>
+<p lang="fa" dir="rtl" align="right">سایت‌هایی که تحریم نیستند را می‌توانید در No proxy for قرار دهید </p>
 <h2 lang="fa" dir="rtl" align="right">Gradle</h2>
 <p lang="fa" dir="rtl" align="right">در فایل gradle.properties سراسری خط‌های زیر را به همراه اطلاعات پراکسی اضافه کنید. چنانچه تنظیمات در فایل gradle.properties سطح پروژه جاری اضافه شود، به مخزن گیت‌ شما اضافه شده و ممکن است برای عملکرد CI ایجاد اشکال کند.</p>
+<p lang="fa" dir="rtl" align="right">سایت‌هایی که تحریم نیستند را می‌توانید در nonProxyHosts قرار دهید </p>
 
 ```
 systemProp.http.proxyHost=fod.backtory.com
 systemProp.http.proxyPort=8118
+systemProp.http.nonProxyHosts=*.jitpack.io, *.maven.org
 systemProp.https.proxyHost=fod.backtory.com
 systemProp.https.proxyPort=8118
+systemProp.https.nonProxyHosts=*.jitpack.io, *.maven.org
 ```
 
 <p lang="fa" dir="rtl" align="right">فایل gradle.properties سراسری در مسیرهای زیر قرار دارد(در صورت عدم وجود فایل، به صورت دستی ایجاد کنید):</p>
