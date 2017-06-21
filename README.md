@@ -99,7 +99,8 @@ Linux: ~/.gradle/gradle.properties
 <p lang="fa" dir="rtl" align="right"><a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard</a><br>foxyproxy یه پلاگین برای فایرفکس و  فکر کنم کروم هست که می‌تونید خیلی راحت و دم دستی تنظیمات پراکسی رو توش تغییر بدید.<br>پلاگین رو نصب کنید، add new proxy رو بزنید، تنظیمات پراکسی رو وارد کنید و ذخیره کنید.<br>از قسمت مود پراکسی‌ای که ساختید رو فعال کنید.</p>
 <p lang="fa" dir="rtl" align="right">نکته:‌بدون این پلاگین هم میشه از تنظیمات فایرفکس پراکسی رو تغییر داد ولی این دم دسته</p>
 <p lang="fa" dir="rtl" align="right">
-  یه فایل foxyproxy-patterns.json وجود داره که میتونید اونو تو افزونه ایمپورت کنید و بدون نیاز به تغییر دادن دستی پراکسی (هربار) یکبار پراکسی رو تنظیم کنید و همیشه بدون نگرانی از تحریم از فایرفاکس استفاده کنید.
+  یه فایل foxyproxy-patterns.json وجود داره که میتونید اونو تو افزونه ایمپورت کنید و بدون نیاز به تغییر دادن دستی پراکسی (هربار) یکبار پراکسی رو تنظیم کنید و همیشه بدون نگرانی از تحریم از فایرفاکس استفاده کنید.<br>
+  این فایل توسط <a href="https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator">یک اپلیکیشن ساده تحت NodeJS بدست میاد.</a>
 </p>
 
 <h2 lang="fa" dir="rtl" align="right">Chrome</h2>
