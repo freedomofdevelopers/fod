@@ -40,6 +40,7 @@
 .vmware.com
 .toggl.com
 .docker.com
+.docker.io
 .googlesource.com
 .polymer-project.org
 .udemy.com
@@ -49,7 +50,12 @@
 .developer.chrome.com
 .backtory.com
 .github.com
+.jfrog.org
 .maven.org
 .jitpack.io
 .maven.google.com
-.jfrog.org
+.cloudfront.net
+.nvidia.com
+.rstudio.com
+.sendgrid.com
+.mailgun.com
