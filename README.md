@@ -57,6 +57,8 @@ All other addresses that are not defined in "domains" file will route directly.
 *.developer.chrome.com
 *.maven.google.com
 *.nvidia.com
+*.tensorflow.org
+*.kaggle.com
 ```
 
 <p lang="fa" dir="rtl" align="right">سرورهای بکتوری در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
