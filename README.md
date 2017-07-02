@@ -3,6 +3,7 @@
 ![alt text](https://backtory.com/landingpageComponents/images/H40pxB.png)
 
 Freedom of Developers
+
 Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
 ```
 fod.backtory.com:8118
@@ -11,6 +12,8 @@ fod.backtory.com:8118
 * FOD.ppx
 Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application trough fod.backtory.com proxy.
 All other addresses that are not defined in "domains" file will route directly.
+
+For last 4 hour status  please check this: http://fod.backtory.com/status.html
 
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 <p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. بکتوری با فراهم کردن یک پراکسی سرور رایگان سعی دارد در چارچوب قوانین کشور به شما کمک کند تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
