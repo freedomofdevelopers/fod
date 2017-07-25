@@ -9,6 +9,11 @@
 .rapid7.com
 .appengine.google.com
 .google.ai
+.gstatic.com
+.googletagmanager.com
+.google-analytics.com
+.googleusercontent.com
+.appspot.com
 .unity3d.com
 .unity.com
 .cloud.google.com
@@ -21,6 +26,7 @@
 .googleapis.com
 .jetbrains.com
 .java.com
+.gradle.org
 .fabric.io
 .godoc.org
 .khanacademy.org
@@ -32,6 +38,7 @@
 .flurry.com
 .softlayer.com
 .mailgun.com
+.bootstrapcdn.com
 .download.virtualbox.org
 .sun.com
 .dev.mysql.com
