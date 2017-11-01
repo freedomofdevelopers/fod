@@ -1,4 +1,5 @@
 .android.com
+.arcgis.com
 .githubusercontent.com
 .slack.com
 .atlassian.com
@@ -16,9 +17,15 @@
 .dl.google.com
 .rapid7.com
 .appengine.google.com
+.envato-static.com
+.newrelic.com
 .google.ai
+.telerik.com
 .ai.google
+.doubleclickbygoogle.com
+.doubleclick.net
 .gstatic.com
+.googleadservices.com
 .googletagmanager.com
 .google-analytics.com
 .googleusercontent.com
@@ -27,6 +34,7 @@
 .demandbase.com
 .appspot.com
 .unity3d.com
+.sourceforge.net
 .unity.com
 .expo.io
 .myfonts.net
