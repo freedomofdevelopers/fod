@@ -141,6 +141,7 @@
         if (/(?:^|\.)slack-edge\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)cloudera\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)pegahtech\.ir$/.test(host)) return "+fod";
+        if (/(?:^|\.)apache\.org$/.test(host)) return "+fod";
         return "DIRECT";
     },
     "+fod": function(url, host, scheme) {
