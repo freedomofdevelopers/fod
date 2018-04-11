@@ -1,4 +1,4 @@
-﻿var FindProxyForURL = function(init, profiles) {
+var FindProxyForURL = function(init, profiles) {
     return function(url, host) {
         "use strict";
         var result = init, scheme = url.substr(0, url.indexOf(":"));
@@ -13,26 +13,36 @@
         "use strict";
         if (/(?:^|\.)android\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)teamtreehouse\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)upwork\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)arcgis\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)php\.net$/.test(host)) return "+fod";
         if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)slack\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)photodune\.net$/.test(host)) return "+fod";
+        if (/(?:^|\.)videohive\.net$/.test(host)) return "+fod";
+        if (/(?:^|\.)audiojungle\.net$/.test(host)) return "+fod";
+        if (/(?:^|\.)3docean\.net$/.test(host)) return "+fod";
+        if (/(?:^|\.)sparkjava\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)graphicriver\.net$/.test(host)) return "+fod";
         if (/(?:^|\.)goanimate\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)atlassian\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)clients6\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)incredibuild\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)epicgames\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)packagist\.org$/.test(host)) return "+fod";
+        if (/(?:^|\.)jenkov\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)bintray\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)withgoogle\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)coinbase\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)schema\.org$/.test(host)) return "+fod";
+        if (/(?:^|\.)invisionapp\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)bitbucket\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)developers\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)nativescript\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)domains\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)tensorflow\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)apple\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)aws\.amazon\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)dl\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)rapid7\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)appengine\.google\.com$/.test(host)) return "+fod";
@@ -70,6 +80,7 @@
         if (/(?:^|\.)googleapis\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)jetbrains\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)seleniumhq\.org$/.test(host)) return "+fod";
+        if (/(?:^|\.)invis\.io$/.test(host)) return "+fod";
         if (/(?:^|\.)java\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)vuforia\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)gradle\.org$/.test(host)) return "+fod";
@@ -88,6 +99,7 @@
         if (/(?:^|\.)bootstrapcdn\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)download\.virtualbox\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)sun\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)books\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)dev\.mysql\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)mongodb\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)mongodb\.com$/.test(host)) return "+fod";
@@ -97,6 +109,7 @@
         if (/(?:^|\.)cp\.maxcdn\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)codecanyon\.net$/.test(host)) return "+fod";
         if (/(?:^|\.)amd\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)payments\.google\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)idaas\.iam\.ibm\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)mbed\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)netbeans\.org$/.test(host)) return "+fod";
@@ -142,6 +155,11 @@
         if (/(?:^|\.)cloudera\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)pegahtech\.ir$/.test(host)) return "+fod";
         if (/(?:^|\.)apache\.org$/.test(host)) return "+fod";
+        if (/(?:^|\.)vagrantup\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)metasploit\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)rapid7\.com$/.test(host)) return "+fod";
+        if (/(?:^|\.)coursera\.org$/.test(host)) return "+fod";
+        if (/(?:^|\.)npmjs\.org$/.test(host)) return "+fod";
         return "DIRECT";
     },
     "+fod": function(url, host, scheme) {
