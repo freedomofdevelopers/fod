@@ -1,19 +1,19 @@
 
 # FOD
-![alt text](https://backtory.com/landingpageComponents/images/H40pxB.png)
-
 Freedom of Developers
+
 Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
 ```
-fod.backtory.com:8118
+fodev.org:8118
 ```
 
-* FOD.ppx
-Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application trough fod.backtory.com proxy.
+- [FOD](#fod)
+Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application through fodev.org proxy.
 All other addresses that are not defined in "domains" file will route directly.
 
+
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
-<p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. بکتوری با فراهم کردن یک پراکسی سرور رایگان سعی دارد در چارچوب قوانین کشور به شما کمک کند تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
+<p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. ما با فراهم کردن یک پراکسی سرور رایگان سعی دارد در چارچوب قوانین کشور به شما کمک کند تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
 
 
 ```
@@ -59,15 +59,17 @@ All other addresses that are not defined in "domains" file will route directly.
 *.nvidia.com
 *.tensorflow.org
 *.kaggle.com
+*.medium.com
+*.code.google.com
 ```
 
-<p lang="fa" dir="rtl" align="right">سرورهای بکتوری در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
+<p lang="fa" dir="rtl" align="right">سرورها در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
 <p lang="fa" dir="rtl" align="right">توجه داشته باشید که این سرویس فقط برای دور زدن تحریم‌ها ساخته شده و سایت‌هایی که تحریم نکردند یا فیلتر شدن از این سرویس قابل دسترسی نیست.</p>
 <h2 lang="fa" dir="rtl" align="right">اطلاعات سرویس</h2>
 <p lang="fa" dir="rtl" align="right">برای استفاده از پراکسی می‌توانید از این آدرس و پورت استفاده کنید</p>
 
 ```
-address: fod.backtory.com
+address: fodev.org
 port:8118
 ```
 
@@ -82,10 +84,10 @@ port:8118
 <p lang="fa" dir="rtl" align="right">سایت‌هایی که تحریم نیستند را می‌توانید در nonProxyHosts قرار دهید </p>
 
 ```
-systemProp.http.proxyHost=fod.backtory.com
+systemProp.http.proxyHost=fodev.org
 systemProp.http.proxyPort=8118
 systemProp.http.nonProxyHosts=*.jitpack.io, *.maven.org
-systemProp.https.proxyHost=fod.backtory.com
+systemProp.https.proxyHost=fodev.org
 systemProp.https.proxyPort=8118
 systemProp.https.nonProxyHosts=*.jitpack.io, *.maven.org
 ```
@@ -105,6 +107,8 @@ Linux: ~/.gradle/gradle.properties
   یه فایل foxyproxy-patterns.json وجود داره که میتونید اونو تو افزونه ایمپورت کنید و بدون نیاز به تغییر دادن دستی پراکسی (هربار) یکبار پراکسی رو تنظیم کنید و همیشه بدون نگرانی از تحریم از فایرفاکس استفاده کنید.<br>
   این فایل توسط <a href="https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator">یک اپلیکیشن ساده تحت NodeJS</a>بدست میاد.
 </p>
+<br>
+<p>با آپدیت جدید فایرفاکس و بوجود اومدن firefox quantom این افزونه هم به روز شده و متاسفانه امکان ایمپورت پترن ها ازش حذف شده</p>
 
 <h2 lang="fa" dir="rtl" align="right">Chrome</h2>
 <p lang="fa" dir="rtl" align="right"><a href="https://github.com/FelisCatus/SwitchyOmega/releases">https://github.com/FelisCatus/SwitchyOmega/releases</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. بعد از وارد کردن اطلاعات پراکسی apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیماتی داره که چه سایت‌هایی از چه پراکسی‌ای رد شند می‌تونید بگید سایت‌هایی که در این سوریس وجود دارند از این پراکسی رد شند و بقیه سایت‌ها به روش دیگری</p>
