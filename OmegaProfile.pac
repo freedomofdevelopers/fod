@@ -126,7 +126,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)teamviewer\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)intel\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)developer\.chrome\.com$/.test(host)) return "+fod";
-        if (/(?:^|\.)backtory\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)github\.com$/.test(host)) return "+fod";
         if (/(?:^|\.)jfrog\.org$/.test(host)) return "+fod";
         if (/(?:^|\.)sonatype\.org$/.test(host)) return "+fod";
@@ -165,6 +164,6 @@ var FindProxyForURL = function(init, profiles) {
     "+fod": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "PROXY fod.backtory.com:8118";
+        return "PROXY fodev.org:8118";
     }
 });
