@@ -1,16 +1,14 @@
 
 # FOD
-![alt text](https://backtory.com/landingpageComponents/images/H40pxB.png)
-
 Freedom of Developers
 
 Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
 ```
-fod.backtory.com:8118
+fodev.org:8118
 ```
 
 - [FOD](#fod)
-Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application through fod.backtory.com proxy.
+Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application through fodev.org proxy.
 All other addresses that are not defined in "domains" file will route directly.
 
 
@@ -71,7 +69,7 @@ All other addresses that are not defined in "domains" file will route directly.
 <p lang="fa" dir="rtl" align="right">برای استفاده از پراکسی می‌توانید از این آدرس و پورت استفاده کنید</p>
 
 ```
-address: fod.backtory.com
+address: fodev.org
 port:8118
 ```
 
@@ -86,10 +84,10 @@ port:8118
 <p lang="fa" dir="rtl" align="right">سایت‌هایی که تحریم نیستند را می‌توانید در nonProxyHosts قرار دهید </p>
 
 ```
-systemProp.http.proxyHost=fod.backtory.com
+systemProp.http.proxyHost=fodev.org
 systemProp.http.proxyPort=8118
 systemProp.http.nonProxyHosts=*.jitpack.io, *.maven.org
-systemProp.https.proxyHost=fod.backtory.com
+systemProp.https.proxyHost=fodev.org
 systemProp.https.proxyPort=8118
 systemProp.https.nonProxyHosts=*.jitpack.io, *.maven.org
 ```
