@@ -25,7 +25,7 @@ var xmlTmpl = template.Must(template.New("xml").Parse(`<?xml version="1.0" encod
   </Options>
   <ProxyList>
     <Proxy id="100" type="HTTPS">
-      <Address>fod.backtory.com</Address>
+      <Address>fodev.org</Address>
       <Port>8118</Port>
       <Options>48</Options>
     </Proxy>
