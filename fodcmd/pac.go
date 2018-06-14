@@ -27,7 +27,7 @@ var pacTmpl = template.Must(template.New("pac").Funcs(template.FuncMap{
     "+fod": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "PROXY fod.backtory.com:8118";
+        return "PROXY fodev.org:8118";
     }
 });
 `))
