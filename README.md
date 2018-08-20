@@ -114,6 +114,14 @@ Linux: ~/.gradle/gradle.properties
 <p lang="fa" dir="rtl" align="right"><a href="https://github.com/FelisCatus/SwitchyOmega/releases">https://github.com/FelisCatus/SwitchyOmega/releases</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. بعد از وارد کردن اطلاعات پراکسی apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیماتی داره که چه سایت‌هایی از چه پراکسی‌ای رد شند می‌تونید بگید سایت‌هایی که در این سوریس وجود دارند از این پراکسی رد شند و بقیه سایت‌ها به روش دیگری</p>
 <h2 lang="fa" dir="rtl" align="right">Proxyfire</h2>
 <p lang="fa" dir="rtl" align="right">با پراکسی فایر در ویندوز و مک یه جورایی میشه یه ترنسپرنت پراکسی راه انداخت و بدون اینکه برای بقیه برنامه‌ها تنظیماتی انجام داد ترافیکشون رو از پراکسی رد کنید همچنین اگر با gradle به مشکل خوردید احتمالا این روش جواب گو خواهد بود<br>با یک جستجو در اینترنت  یه نسخه از برنامه رو دانلود کنید و سپس فایل fox.ppx در همین ریپازیتوری را دانلود و در برنامه ایمپورت کنید.</p>
+
+<h2 lang="fa" dir="rtl" align="right">Git</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده در گیت و میتونید از این روش استفاده کنید</p>
+
+```
+git config --global http.proxy fodev.org:8118
+```
+
+
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
-
