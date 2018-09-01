@@ -122,6 +122,8 @@ Linux: ~/.gradle/gradle.properties
 ```
 git config --global http.proxy fodev.org:8118
 ```
+اگر مشکل حل نشد این لینک رو نگاه کنید
+<https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
