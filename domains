@@ -126,6 +126,7 @@
 .amd.com
 .payments.google.com
 .ibm.com
+.jenkins-ci.org
 .mbed.com
 .netbeans.org
 .vmware.com
@@ -152,6 +153,7 @@
 .rstudio.com
 .sendgrid.com
 .tensorflow.org
+.kubernetes.io
 .kaggle.com
 .issuetracker.google.com
 .virtualbox.org
@@ -183,3 +185,4 @@
 .lenovo.com
 .jitsi.org
 .anydesk.com
+.ant.design
