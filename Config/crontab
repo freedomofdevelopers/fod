@@ -1,0 +1,2 @@
+DATEVAR=date +20%y%m%d_%H%M%S
+*/59 * * * * /root/scripts/renew-domains-file.sh > /root/scripts/logs/renew-domains-$($DATEVAR).log 2>&1
