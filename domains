@@ -38,6 +38,7 @@
 .packagist.org
 .jenkov.com
 .bintray.com
+.edgesuite.net
 .marketingplatform.google.com
 .gopkg.in
 .labix.org
@@ -55,7 +56,9 @@
 .aws.amazon.com
 .dl.google.com
 .rapid7.com
+.pscdn.co
 .appengine.google.com
+.baeldung.com
 .envato-static.com
 .newrelic.com
 .google.ai
@@ -207,3 +210,4 @@
 .spotify.com
 .scdn.co
 .godbolt.org
+.zoom.us
