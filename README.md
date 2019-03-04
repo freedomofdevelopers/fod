@@ -102,6 +102,13 @@ git config --global http.proxy fodev.org:8118
 اگر مشکل حل نشد این لینک رو نگاه کنید
 <https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
+<h2 lang="fa" dir="rtl" align="right">Npm</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده در npm</p>
+
+```
+npm config set proxy http://fodev.org:8118
+npm config set https-proxy http://fodev.org:8118
+```
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
