@@ -32,7 +32,6 @@
 .mit.edu
 .tinyjpg.com
 .goanimate.com
-.tinyjpg.com
 .gitlab.com
 .atlassian.com
 .spiceworks.com
@@ -71,7 +70,6 @@
 .google.ai
 .dartlang.org
 .flutter.io
-.telerik.com
 .ai.google
 .doubleclickbygoogle.com
 .doubleclick.net
@@ -90,8 +88,6 @@
 .unity3d.com
 .sourceforge.net
 .unity.com
-.google-analytics.com
-.expo.io
 .myfonts.net
 .jaspersoft.com
 .design.google.com
@@ -138,7 +134,6 @@
 .mongodb.com
 .envato.com
 .adobe.com
-.unrealengine.com
 .apps.admob.com
 .grafana.com
 .cp.maxcdn.com
@@ -156,7 +151,6 @@
 .docker.io
 .gcr.io
 .datacamp.com
-.bugsnag.com
 .googlesource.com
 .polymer-project.org
 .udemy.com
@@ -174,9 +168,7 @@
 .nvidia.com
 .rstudio.com
 .sendgrid.com
-.tensorflow.org
 .kubernetes.io
-.kaggle.com
 .issuetracker.google.com
 .virtualbox.org
 .atlassian.net
@@ -192,14 +184,12 @@
 .splunk.com
 .gitlab-static.net
 .releases.hashicorp.com
-.tinyjpg.com
 .livefyre.com
 .slack-edge.com
 .cloudera.com
 .apache.org
 .vagrantup.com
 .metasploit.com
-.rapid7.com
 .coursera.org
 .npmjs.org
 .dell.com
@@ -225,3 +215,15 @@
 .githubassets.com
 .i.stack.imgur.com
 .bitsrc.io
+.hyper.is
+.serialport.io
+.curd.io
+.gitpod.io
+.wikia.com
+.developer.samsung.com
+.clients2.google.com
+.business.google.com
+.grabcad.com
+.vmcdn.com
+.nirsoft.net
+.digikey.com
