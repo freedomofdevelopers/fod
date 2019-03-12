@@ -1,17 +1,6 @@
-
-# FOD
-Freedom of Developers
 ![alt text](https://raw.githubusercontent.com/freedomeofdevelopers/fod/master/FoD.png)
 
-Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
-```
-fodev.org:8118
-```
-
-- [FOD](#fod)
-Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application through fodev.org proxy.
-All other addresses that are not defined in "domains" file will route directly.
-
+<a href='https://idpay.ir/fodev'><img alt='Donate' src='http://austinfree.net/wp-content/uploads/2014/06/Donate-Circle-1.jpg' height="100" width="100"/></a>
 
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 <p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. ما به عنوان یک ارگان مستقل غیرانتفاعی با فراهم کردن یک پراکسی سرور رایگان سعی داریم در چارچوب قوانین کشور به شما کمک کنیم تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
@@ -52,6 +41,11 @@ port:8118
 ```
 
 <p lang="fa" dir="rtl" align="right">کافیست اطلاعات بالا در تنظیمات پراکسی برنامه مورد نظر خود وارد کنید.</p>
+<h2 lang="fa" dir="rtl" align="right">حمایت از سرویس</h2>
+<p lang="fa" dir="rtl" align="right">میزان استفاده از سرویس بالا رفته درنتیجه نیاز به سرورهایی با محدودیت کمتر حس میشه. ما تصمیم گرفتیم از شما برای تامین هزینه‌ها کمک بگیریم تا راحت‌تر ادامه بدیم.<br>
+از طریق لینک زیر میتونید به ما در تامین هزینه‌های سرویس کمک کنید. سعی میکنیم زود به زود هزینه‌های صرف شده و کمک‌های دریافت شده رو بهتون اطلاع بدیم.<br>
+توجه داشته باشید که همچنان کمک‌های دریافتی تعهدی برای ما ایجاد نمیکنه که این سرویس برای همیشه کار کنه. ما در حد امکان سعی میکنیم مثل سابق ادامه بدیم ولی ممکنه از داخل و خارج مشکل قانونی پیش بیاد، ممکنه راه‌های عبور از فیلتر سخت شه، ممکنه ما خسته شیم و یا … که نتونیم ادامه بدیم.</p>
+<p><a href="https://idpay.ir/fodev">https://idpay.ir/fodev</a>
 <h2 lang="fa" dir="rtl" align="right">افزودن به سرویس</h2>
 <p lang="fa" dir="rtl" align="right">اگر از سایت یا سرویسی استفاده می‌کنید که ایران تحریم کرده ولی در این سرویس نیست می‌توانید با زدن ایشو یا افزودن دامین مورد نظر در فایل domains همین ریپو و پول ریکوست به ما اعلام کنید تا اضافش کنیم.</p>
 <h2 lang="fa" dir="rtl" align="right">Android Studio</h2>
@@ -102,6 +96,13 @@ git config --global http.proxy fodev.org:8118
 اگر مشکل حل نشد این لینک رو نگاه کنید
 <https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
+<h2 lang="fa" dir="rtl" align="right">Npm</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده در npm</p>
+
+```
+npm config set proxy http://fodev.org:8118
+npm config set https-proxy http://fodev.org:8118
+```
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
