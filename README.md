@@ -96,12 +96,45 @@ git config --global http.proxy fodev.org:8118
 اگر مشکل حل نشد این لینک رو نگاه کنید
 <https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
+
+<h2 lang="fa" dir="rtl" align="right">خط فرمان لینوکس</h2>
+<p lang="fa" dir="rtl" align="right"> 
+برای نصب اسکریپت اگر از پوسته bash استفاده میکنید این دستور 
+</p>
+
+```sh
+curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+~/.bashrc && source ~/.bashrc
+```
+<p lang="fa" dir="rtl" align="right"> 
+و اگر از پوسته zsh این دستور
+</p>
+
+```sh
+curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+~/.zshrc && source ~/.zshrc 
+```
+<p lang="fa" dir="rtl" align="right"> 
+برای فعال کردن پروکسی دستور
+</p>
+
+```
+fod --enable
+```
+<p lang="fa" dir="rtl" align="right"> 
+و برای غیر فعال کردن پروکسی دستور
+</p>
+
+```
+fod --disable
+
 <h2 lang="fa" dir="rtl" align="right">Npm</h2>
 <p lang="fa" dir="rtl" align="right">برای استفاده در npm</p>
 
 ```
 npm config set proxy http://fodev.org:8118
 npm config set https-proxy http://fodev.org:8118
+
 ```
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
