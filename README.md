@@ -132,7 +132,7 @@ git config --global http.proxy fodev.org:8118
 </p>
 
 ```sh
-curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+curl -LSs https://git.io/fjJNe >> \
 ~/.bashrc && source ~/.bashrc
 ```
 <p lang="fa" dir="rtl" align="right"> 
@@ -140,7 +140,7 @@ curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod
 </p>
 
 ```sh
-curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+curl -LSs https://git.io/fjJNe >> \
 ~/.zshrc && source ~/.zshrc 
 ```
 
