@@ -167,10 +167,20 @@ Linux: ~/.gradle/gradle.properties
 
 ```
 git config --global http.proxy fodev.org:8118
+git config --global https.proxy fodev.org:8118
 ```
 اگر مشکل حل نشد این لینک رو نگاه کنید
 <https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
+<p lang="fa" dir="rtl" align="right"> 
+و برای غیر فعال کردن پروکسی دستور
+</p>
+
+
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
 
 <h2 lang="fa" dir="rtl" align="right">خط فرمان لینوکس</h2>
 <p lang="fa" dir="rtl" align="right"> 
