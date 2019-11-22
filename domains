@@ -1,5 +1,6 @@
 .fodev.org
 .android.com
+.amp.dev
 .teamtreehouse.com
 .upwork.com
 .bluemix.net
@@ -10,11 +11,19 @@
 .jenkins.org
 .rubygems.org
 .ruby-doc.org
+.kaggleusercontent.com
 .arcgis.com
+.eslint.org
+.google-analytics.com
 .proandroiddev.com
+.stackoverflow.com
+.vuejs.org
+.reactjs.org
 .adservice.google.com
 .jhipster.tech
 .algolia.net
+.adobelogin.com
+.adobe.com
 .symfony.com
 .classroom.google.com
 .csb.app
@@ -23,6 +32,7 @@
 .c9.io
 .codecov.io
 .coursehero.com
+.githubapp.com
 .expressjs.com
 .twilio.com
 .codex.cs.yale.edu
@@ -70,6 +80,7 @@
 .gopkg.in
 .labix.org
 .withgoogle.com
+.accounts.google.com
 .coinbase.com
 .schema.org
 .invisionapp.com
@@ -169,6 +180,7 @@
 .unrealengine.com
 .mongodb.org
 .mongodb.com
+.swaggerhub.com
 .envato.com
 .adobe.com
 .apps.admob.com
@@ -243,6 +255,7 @@
 .bitvise.com
 .nextjs.org
 .ni.com
+.graphql.org
 .altera.com
 .chocolatey.org
 .microchip.com
@@ -276,3 +289,6 @@
 .events.google.com
 .unsplash.com
 .k8s.io
+.coursera-apps.org
+.coursera.com
+.javacardos.com
