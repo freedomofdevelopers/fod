@@ -123,7 +123,6 @@ Linux: ~/.gradle/gradle.properties
   این فایل توسط <a href="https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator">یک اپلیکیشن ساده تحت NodeJS</a> بدست میاد.
 </p>
 <br>
-<p lang="fa" dir="rtl" align="right">با آپدیت جدید فایرفاکس و بوجود اومدن firefox quantom این افزونه هم به روز شده و متاسفانه امکان ایمپورت پترن‌ها ازش حذف شده.</p>
 <p lang="fa" dir="rtl" align="right">
 همچنین میتونید از افزونه <a href="https://addons.mozilla.org/en-US/firefox/addon/switchyomega/">SwitchyOmega</a> برای فایرفاکس استفاده کنید.</p>
 
