@@ -6,1055 +6,1626 @@
       "color": "#66cc66",
       "address": "fodev.org",
       "port": 8118,
+      "title": "fod",
       "active": true,
       "whitePatterns": [
         {
-          "title": "code.google.com",
           "active": true,
-          "pattern": "*.goole.com",
+          "pattern": "*.fodev.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".android.com",
-          "pattern": "*android.com*",
+          "pattern": "*.android.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".teamtreehouse.com",
-          "pattern": "*teamtreehouse.com*",
+          "pattern": "*.teamtreehouse.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".upwork.com",
-          "pattern": "*upwork.com*",
+          "pattern": "*.upwork.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".arcgis.com",
-          "pattern": "*arcgis.com*",
+          "pattern": "*.bluemix.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".php.net",
-          "pattern": "*php.net*",
+          "pattern": "*.swift.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".githubusercontent.com",
-          "pattern": "*githubusercontent.com*",
+          "pattern": "*.fbsbx.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".slack.com",
-          "pattern": "*slack.com*",
+          "pattern": "*.googletagservices.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".photodune.net",
-          "pattern": "*photodune.net*",
+          "pattern": "*.overleaf.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".videohive.net",
-          "pattern": "*videohive.net*",
+          "pattern": "*.jenkins.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".audiojungle.net",
-          "pattern": "*audiojungle.net*",
+          "pattern": "*.ruby-doc.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".3docean.net",
-          "pattern": "*3docean.net*",
+          "pattern": "*.arcgis.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".sparkjava.com",
-          "pattern": "*sparkjava.com*",
+          "pattern": "*.adservice.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".graphicriver.net",
-          "pattern": "*graphicriver.net*",
+          "pattern": "*.jhipster.tech*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".goanimate.com",
-          "pattern": "*goanimate.com*",
+          "pattern": "*.symfony.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".atlassian.com",
-          "pattern": "*atlassian.com*",
+          "pattern": "*.classroom.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".clients6.google.com",
-          "pattern": "*clients6.google.com*",
+          "pattern": "*.paypal.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".incredibuild.com",
-          "pattern": "*incredibuild.com*",
+          "pattern": "*.web.dev*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".epicgames.com",
-          "pattern": "*epicgames.com*",
+          "pattern": "*.c9.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".packagist.org",
-          "pattern": "*packagist.org*",
+          "pattern": "*.codecov.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".jenkov.com",
-          "pattern": "*jenkov.com*",
+          "pattern": "*.coursehero.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".bintray.com",
-          "pattern": "*bintray.com*",
+          "pattern": "*.expressjs.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".withgoogle.com",
-          "pattern": "*withgoogle.com*",
+          "pattern": "*.twilio.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".coinbase.com",
-          "pattern": "*coinbase.com*",
+          "pattern": "*.codex.cs.yale.edu*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".schema.org",
-          "pattern": "*schema.org*",
+          "pattern": "*.edx.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".invisionapp.com",
-          "pattern": "*invisionapp.com*",
+          "pattern": "*.php.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".bitbucket.org",
-          "pattern": "*bitbucket.org*",
+          "pattern": "*.githubusercontent.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".developers.google.com",
-          "pattern": "*developers.google.com*",
+          "pattern": "*.slack.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".nativescript.org",
-          "pattern": "*nativescript.org*",
+          "pattern": "*.play.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".domains.google.com",
-          "pattern": "*domains.google.com*",
+          "pattern": "*.developer.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".tensorflow.org",
-          "pattern": "*tensorflow.org*",
+          "pattern": "*.photodune.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".apple.com",
-          "pattern": "*apple.com*",
+          "pattern": "*.videohive.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".aws.amazon.com",
-          "pattern": "*aws.amazon.com*",
+          "pattern": "*.laravel.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".dl.google.com",
-          "pattern": "*dl.google.com*",
+          "pattern": "*.salesforce.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".rapid7.com",
-          "pattern": "*rapid7.com*",
+          "pattern": "*.expo.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".appengine.google.com",
-          "pattern": "*appengine.google.com*",
+          "pattern": "*.clients.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".envato-static.com",
-          "pattern": "*envato-static.com*",
+          "pattern": "*.telerik.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".newrelic.com",
-          "pattern": "*newrelic.com*",
+          "pattern": "*.audiojungle.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".google.ai",
-          "pattern": "*google.ai*",
+          "pattern": "*.3docean.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".telerik.com",
-          "pattern": "*telerik.com*",
+          "pattern": "*.sparkjava.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".ai.google",
-          "pattern": "*ai.google*",
+          "pattern": "*.zeit.co*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".doubleclickbygoogle.com",
-          "pattern": "*doubleclickbygoogle.com*",
+          "pattern": "*.graphicriver.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".doubleclick.net",
-          "pattern": "*doubleclick.net*",
+          "pattern": "*.mit.edu*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".gstatic.com",
-          "pattern": "*gstatic.com*",
+          "pattern": "*.tinyjpg.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".googleadservices.com",
-          "pattern": "*googleadservices.com*",
+          "pattern": "*.goanimate.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".googletagmanager.com",
-          "pattern": "*googletagmanager.com*",
+          "pattern": "*.hackerrank.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".google-analytics.com",
-          "pattern": "*google-analytics.com*",
+          "pattern": "*.gitlab.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".googleusercontent.com",
-          "pattern": "*googleusercontent.com*",
+          "pattern": "*.gitpod.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".en25.com",
-          "pattern": "*en25.com*",
+          "pattern": "*.atlassian.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".tinypng.com",
-          "pattern": "*tinypng.com*",
+          "pattern": "*.spiceworks.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".demandbase.com",
-          "pattern": "*demandbase.com*",
+          "pattern": "*.bugsnag.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".appspot.com",
-          "pattern": "*appspot.com*",
+          "pattern": "*.sentry.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".unity3d.com",
-          "pattern": "*unity3d.com*",
+          "pattern": "*.clients6.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".sourceforge.net",
-          "pattern": "*sourceforge.net*",
+          "pattern": "*.incredibuild.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".unity.com",
-          "pattern": "*unity.com*",
+          "pattern": "*.epicgames.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".expo.io",
-          "pattern": "*expo.io*",
+          "pattern": "*.enterprisedb.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".myfonts.net",
-          "pattern": "*myfonts.net*",
+          "pattern": "*.packagist.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".design.google.com",
-          "pattern": "*design.google.com*",
+          "pattern": "*.jenkov.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".stripe.com",
-          "pattern": "*stripe.com*",
+          "pattern": "*.bintray.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".gravatar.com",
-          "pattern": "*gravatar.com*",
+          "pattern": "*.edgesuite.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".cloud.google.com",
-          "pattern": "*cloud.google.com*",
+          "pattern": "*.marketingplatform.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".analytics.google.com",
-          "pattern": "*analytics.google.com*",
+          "pattern": "*.gopkg.in*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".fiber.google.com",
-          "pattern": "*fiber.google.com*",
+          "pattern": "*.labix.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".dl-ssl.google.com",
-          "pattern": "*dl-ssl.google.com*",
+          "pattern": "*.withgoogle.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".dns.google.com",
-          "pattern": "*dns.google.com*",
+          "pattern": "*.coinbase.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".firebase.google.com",
-          "pattern": "*firebase.google.com*",
+          "pattern": "*.schema.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".firebase.com",
-          "pattern": "*firebase.com*",
+          "pattern": "*.invisionapp.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".googleapis.com",
-          "pattern": "*googleapis.com*",
+          "pattern": "*.bitbucket.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".jetbrains.com",
-          "pattern": "*jetbrains.com*",
+          "pattern": "*.softonic.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".seleniumhq.org",
-          "pattern": "*seleniumhq.org*",
+          "pattern": "*.developers.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".invis.io",
-          "pattern": "*invis.io*",
+          "pattern": "*.nativescript.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".java.com",
-          "pattern": "*java.com*",
+          "pattern": "*.kaggle.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".vuforia.com",
-          "pattern": "*vuforia.com*",
+          "pattern": "*.ads.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".gradle.org",
-          "pattern": "*gradle.org*",
+          "pattern": "*.domains.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".fabric.io",
-          "pattern": "*fabric.io*",
+          "pattern": "*.tensorflow.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".godoc.org",
-          "pattern": "*godoc.org*",
+          "pattern": "*.apple.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".khanacademy.org",
-          "pattern": "*khanacademy.org*",
+          "pattern": "*.aws.amazon.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".oracle.com",
-          "pattern": "*oracle.com*",
+          "pattern": "*.dl.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".crashlytics.com",
-          "pattern": "*crashlytics.com*",
+          "pattern": "*.rapid7.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".golang.org",
-          "pattern": "*golang.org*",
+          "pattern": "*.pscdn.co*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".storage.googleapis.com",
-          "pattern": "*storage.googleapis.com*",
+          "pattern": "*.appengine.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".spring.io",
-          "pattern": "*spring.io*",
+          "pattern": "*.baeldung.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".themeforest.net",
-          "pattern": "*themeforest.net*",
+          "pattern": "*.envato-static.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".flurry.com",
-          "pattern": "*flurry.com*",
+          "pattern": "*.newrelic.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".softlayer.com",
-          "pattern": "*softlayer.com*",
+          "pattern": "*.google.ai*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".mailgun.com",
-          "pattern": "*mailgun.com*",
+          "pattern": "*.dartlang.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".bootstrapcdn.com",
-          "pattern": "*bootstrapcdn.com*",
+          "pattern": "*.gitlab.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".download.virtualbox.org",
-          "pattern": "*download.virtualbox.org*",
+          "pattern": "*.flutter.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".sun.com",
-          "pattern": "*sun.com*",
+          "pattern": "*.ai.google*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".books.google.com",
-          "pattern": "*books.google.com*",
+          "pattern": "*.doubleclickbygoogle.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".dev.mysql.com",
-          "pattern": "*dev.mysql.com*",
+          "pattern": "*.doubleclick.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".mongodb.org",
-          "pattern": "*mongodb.org*",
+          "pattern": "*.gstatic.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".mongodb.com",
-          "pattern": "*mongodb.com*",
+          "pattern": "*.jwplayer.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".envato.com",
-          "pattern": "*envato.com*",
+          "pattern": "*.caddyserver.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".adobe.com",
-          "pattern": "*adobe.com*",
+          "pattern": "*.caddy.community*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".apps.admob.com",
-          "pattern": "*apps.admob.com*",
+          "pattern": "*.googleadservices.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".cp.maxcdn.com",
-          "pattern": "*cp.maxcdn.com*",
+          "pattern": "*.googletagmanager.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".codecanyon.net",
-          "pattern": "*codecanyon.net*",
+          "pattern": "*.geforce.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".amd.com",
-          "pattern": "*amd.com*",
+          "pattern": "*.socket.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".payments.google.com",
-          "pattern": "*payments.google.com*",
+          "pattern": "*.google-analytics.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".idaas.iam.ibm.com",
-          "pattern": "*idaas.iam.ibm.com*",
+          "pattern": "*.googleusercontent.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".mbed.com",
-          "pattern": "*mbed.com*",
+          "pattern": "*.en25.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".netbeans.org",
-          "pattern": "*netbeans.org*",
+          "pattern": "*.tinypng.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".vmware.com",
-          "pattern": "*vmware.com*",
+          "pattern": "*.justpaste.it*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".toggl.com",
-          "pattern": "*toggl.com*",
+          "pattern": "*.demandbase.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".docker.com",
-          "pattern": "*docker.com*",
+          "pattern": "*.appspot.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".docker.io",
-          "pattern": "*docker.io*",
+          "pattern": "*.element14.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".gcr.io",
-          "pattern": "*gcr.io*",
+          "pattern": "*.unity3d.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".bugsnag.com",
-          "pattern": "*bugsnag.com*",
+          "pattern": "*.sourceforge.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".googlesource.com",
-          "pattern": "*googlesource.com*",
+          "pattern": "*.unity.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".polymer-project.org",
-          "pattern": "*polymer-project.org*",
+          "pattern": "*.myfonts.net*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".udemy.com",
-          "pattern": "*udemy.com*",
+          "pattern": "*.jaspersoft.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".material.io",
-          "pattern": "*material.io*",
+          "pattern": "*.design.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".teamviewer.com",
-          "pattern": "*teamviewer.com*",
+          "pattern": "*.stripe.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".intel.com",
-          "pattern": "*intel.com*",
+          "pattern": "*.python.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".developer.chrome.com",
-          "pattern": "*developer.chrome.com*",
+          "pattern": "*.pypi.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".backtory.com",
-          "pattern": "*backtory.com*",
+          "pattern": "*.gravatar.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".github.com",
-          "pattern": "*github.com*",
+          "pattern": "*.cloud.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".jfrog.org",
-          "pattern": "*jfrog.org*",
+          "pattern": "*.analytics.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".sonatype.org",
-          "pattern": "*sonatype.org*",
+          "pattern": "*.optimize.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".maven.org",
-          "pattern": "*maven.org*",
+          "pattern": "*.fiber.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".jitpack.io",
-          "pattern": "*jitpack.io*",
+          "pattern": "*.dl-ssl.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".maven.google.com",
-          "pattern": "*maven.google.com*",
+          "pattern": "*.dns.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".cloudfront.net",
-          "pattern": "*cloudfront.net*",
+          "pattern": "*.firebase.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".nvidia.com",
-          "pattern": "*nvidia.com*",
+          "pattern": "*.firebase.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".rstudio.com",
-          "pattern": "*rstudio.com*",
+          "pattern": "*.googleapis.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".sendgrid.com",
-          "pattern": "*sendgrid.com*",
+          "pattern": "*.jetbrains.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".tensorflow.org",
-          "pattern": "*tensorflow.org*",
+          "pattern": "*.seleniumhq.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".kaggle.com",
-          "pattern": "*kaggle.com*",
+          "pattern": "*.invis.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".issuetracker.google.com",
-          "pattern": "*issuetracker.google.com*",
+          "pattern": "*.java.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".archive.ubuntu.com",
-          "pattern": "*archive.ubuntu.com*",
+          "pattern": "*.vuforia.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".elastic.co",
-          "pattern": "*elastic.co*",
+          "pattern": "*.cocalc.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".launchpad.net",
-          "pattern": "*launchpad.net*",
+          "pattern": "*.gradle.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".medium.com",
-          "pattern": "*medium.com*",
+          "pattern": "*.fabric.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".code.google.com",
-          "pattern": "*code.google.com*",
+          "pattern": "*.apis.google.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".realm.io",
-          "pattern": "*realm.io*",
+          "pattern": "*.godoc.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".maas.io",
-          "pattern": "*maas.io*",
+          "pattern": "*.paypalobjects.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".docs.datastax.com",
-          "pattern": "*docs.datastax.com*",
+          "pattern": "*.count.ly*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".releases.hashicorp.com",
-          "pattern": "*releases.hashicorp.com*",
+          "pattern": "*.khanacademy.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".tinyjpg.com",
-          "pattern": "*tinyjpg.com*",
+          "pattern": "*.oracle.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".livefyre.com",
-          "pattern": "*livefyre.com*",
+          "pattern": "*.crashlytics.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".slack-edge.com",
-          "pattern": "*slack-edge.com*",
+          "pattern": "*.origin.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".cloudera.com",
-          "pattern": "*cloudera.com*",
+          "pattern": "*.explainshell.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".pegahtech.ir",
-          "pattern": "*pegahtech.ir*",
+          "pattern": "*.packtpub.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".apache.org",
-          "pattern": "*apache.org*",
+          "pattern": "*.traviscistatus.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".vagrantup.com",
-          "pattern": "*vagrantup.com*",
+          "pattern": "*.golang.org*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".metasploit.com",
-          "pattern": "*metasploit.com*",
+          "pattern": "*.storage.googleapis.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".rapid7.com",
-          "pattern": "*rapid7.com*",
+          "pattern": "*.flutterlearn.com*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".coursera.org",
-          "pattern": "*coursera.org*",
+          "pattern": "*.spring.io*",
           "type": 1,
           "protocols": 1
         },
         {
           "active": true,
-          "title": ".npmjs.org",
-          "pattern": "*npmjs.org*",
+          "pattern": "*.themeforest.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.flurry.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.softlayer.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mailgun.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.bootstrapcdn.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.download.virtualbox.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.sun.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.books.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mysql.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.unrealengine.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mongodb.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mongodb.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.envato.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.adobe.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.apps.admob.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.grafana.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.cp.maxcdn.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.codecanyon.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.compiles.overleaf.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.amd.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.payments.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.ibm.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.jenkins-ci.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mbed.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.ti.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.netbeans.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.vmware.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.toggl.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.docker.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.docker.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.gcr.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.datacamp.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.googlesource.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.polymer-project.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.udemy.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.material.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.teamviewer.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.intel.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.developer.chrome.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.github.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.jfrog.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.sonatype.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.maven.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.jitpack.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.maven.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.cloudfront.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.nvidia.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.rstudio.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.sendgrid.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.kubernetes.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.issuetracker.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.virtualbox.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.atlassian.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.archive.ubuntu.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.b4x.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.elastic.co*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.launchpad.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.medium.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.code.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.realm.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.maas.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.docs.datastax.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.splunk.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.gitlab-static.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.releases.hashicorp.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.livefyre.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.slack-edge.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.cloudera.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.apache.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.vagrantup.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.metasploit.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.coursera.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.nodejs.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.npmjs.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.dell.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.gallery.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.mathworks.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.lenovo.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.jitsi.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.anydesk.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.ant.design*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.centos.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.quay.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.bitvise.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.ni.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.altera.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.chocolatey.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.microchip.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.codesandbox.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.spotify.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.scdn.co*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.godbolt.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.zoom.us*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.freecodecamp.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.libraries.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.githubassets.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.i.stack.imgur.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.bitsrc.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.hyper.is*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.serialport.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.curd.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.gitpod.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.wikia.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.fluttercrashcourse.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.developer.samsung.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.clients2.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.business.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.grabcad.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.vmcdn.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.nirsoft.net*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.digikey.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.download.01.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.packagesource.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.bootswatch.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.getbootstrap.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.events.google.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.unsplash.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*.k8s.io*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*coursera-apps.org*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*coursera.com*",
+          "type": 1,
+          "protocols": 1
+        },
+        {
+          "active": true,
+          "pattern": "*javacardos.com*",
           "type": 1,
           "protocols": 1
         }
