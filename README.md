@@ -195,5 +195,27 @@ npm config set proxy http://fodev.org:8118
 npm config set https-proxy http://fodev.org:8118
 ```
 
+
+<h2 lang="fa" dir="rtl" align="right">Docker</h2>
+<h4 lang="fa" dir="rtl" align="right">برای نصب در Ubuntu/Debian</h4>
+<p lang="fa" dir="rtl" align="right">ویرایش فایل زیر و افزودن</p>
+
+`‍‍‍‍‍‍‍‍‍‍/etc/apt/apt.conf.d/proxy.conf`
+
+`‍Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";`
+
+<h4 lang="fa" dir="rtl" align="right">برای استفاده در docker</h4>
+
+```
+mkdir -p /etc/systemd/system/docker.service.d
+nano /etc/systemd/system/docker.service.d/docker.conf
+
+[Service]
+Environment="HTTPS_PROXY=http://fodev.org:8118"
+
+systemctl daemon-reload
+systemctl restart docker
+```
+
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
