@@ -208,7 +208,7 @@ npm config set https-proxy http://fodev.org:8118
 
 ```
 mkdir -p /etc/systemd/system/docker.service.d
-nano /etc/systemd/system/docker.service.d/docker.conf
+nano /etc/systemd/system/docker.service.d/http-proxy.conf
 
 [Service]
 Environment="HTTPS_PROXY=http://fodev.org:8118"
