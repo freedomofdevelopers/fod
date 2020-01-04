@@ -1,67 +1,33 @@
-
-# FOD
-Freedom of Developers
 ![alt text](https://raw.githubusercontent.com/freedomeofdevelopers/fod/master/FoD.png)
 
-Please put domains of websites and web apps you need as a developer that somehow! you cant access directly  in "domains" file , then use this proxy :
-```
-fodev.org:8118
-```
-
-- [FOD](#fod)
-Import this file in proxifire application (https://www.proxifier.com/) (Win/Mac) to transparent your TCP connection from any application through fodev.org proxy.
-All other addresses that are not defined in "domains" file will route directly.
-
+<a href='https://idpay.ir/fodev'><img alt='Donate' src='http://austinfree.net/wp-content/uploads/2014/06/Donate-Circle-1.jpg' height="100" width="100"/></a>
 
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 <p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. ما به عنوان یک ارگان مستقل غیرانتفاعی با فراهم کردن یک پراکسی سرور رایگان سعی داریم در چارچوب قوانین کشور به شما کمک کنیم تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
 
 
 ```
-*.developer.android.com
-*.atlassian.com
-*.bintray.com
-*.bitbucket.org
-*.developers.google.com
-*.domains.google.com
-*.dl.google.com
-*.appengine.google.com
-*.google.ai
-*.unity3d.com
-*.cloud.google.com
-*.analytics.google.com
-*.fiber.google.com
-*.dl-ssl.google.com
-*.dns.google.com
-*.firebase.google.com
-*.firebase.com
-*.googleapis.com
-*.java.com
-*.khanacademy.org
-*.oracle.com
-*.storage.googleapis.com
-*.themeforest.net
-*.download.virtualbox.org
-*.sun.com
-*.mongodb.com
-*.envato.com
-*.adobe.com
-*.idaas.iam.ibm.com
-*.vmware.com
-*.docker.com
-*.googlesource.com
-*.polymer-project.org
-*.udemy.com
-*.material.io
-*.teamviewer.com
-*.intel.com
-*.developer.chrome.com
-*.maven.google.com
-*.nvidia.com
-*.tensorflow.org
-*.kaggle.com
-*.medium.com
-*.code.google.com
+.android.com
+.teamtreehouse.com
+.upwork.com
+.bluemix.net
+.swift.org
+.fbsbx.com
+.googletagservices.com
+.jenkins.org
+.arcgis.com
+.adservice.google.com
+.jhipster.tech
+.classroom.google.com
+.c9.io
+.edx.org
+.php.net
+.githubusercontent.com
+.slack.com
+.play.google.com
+.photodune.net
+.videohive.net
+... and
 ```
 
 <p lang="fa" dir="rtl" align="right">سرورها در دیتاسنترهای داخل کشور قرار دارد و در نتیجه با توجه به شرایط اینترنت کشور شما می‌توانید با سرعت بیشتری دیتا مورد نیاز خود را دانلود کنید. اگر اطلاعات کافی برای استفاده از پراکسی ندارید سعی کردیم آموزش‌های مختصری برای شما فراهم کنیم. سعی ما بر این است به مرور زمان سرویس و آموزش‌ها را بهبود دهیم تا نیازهای بیشتری را برطرف کند.</p>
@@ -75,6 +41,54 @@ port:8118
 ```
 
 <p lang="fa" dir="rtl" align="right">کافیست اطلاعات بالا در تنظیمات پراکسی برنامه مورد نظر خود وارد کنید.</p>
+<h2 lang="fa" dir="rtl" align="right">حمایت از سرویس</h2>
+<p lang="fa" dir="rtl" align="right">میزان استفاده از سرویس بالا رفته درنتیجه نیاز به سرورهایی با محدودیت کمتر حس میشه. ما تصمیم گرفتیم از شما برای تامین هزینه‌ها کمک بگیریم تا راحت‌تر ادامه بدیم.<br>
+از طریق لینک زیر میتونید به ما در تامین هزینه‌های سرویس کمک کنید. سعی میکنیم زود به زود هزینه‌های صرف شده و کمک‌های دریافت شده رو بهتون اطلاع بدیم.<br>
+توجه داشته باشید که همچنان کمک‌های دریافتی تعهدی برای ما ایجاد نمیکنه که این سرویس برای همیشه کار کنه. ما در حد امکان سعی میکنیم مثل سابق ادامه بدیم ولی ممکنه از داخل و خارج مشکل قانونی پیش بیاد، ممکنه راه‌های عبور از فیلتر سخت شه، ممکنه ما خسته شیم و یا … که نتونیم ادامه بدیم.</p>
+<p><a href="https://idpay.ir/fodev">https://idpay.ir/fodev</a>
+
+<p lang="fa" dir="rtl" align="right"> هزینه‌ها تا کنون</p>
+
+|   توسط  | هزینه/زمان |      مورد      |
+|:-------:|:----------:|:--------------:|
+|   سروش  |    ۱ سال   |    سرور خارج   |
+|  بکتوری |    ۱ سال   |   سرور ایران   |
+|   i12e  |    از خرداد ۹۷ تا کنون   |   سرور ایران   |
+| محمدرضا |    ۴ ماه   |    سرور خارج   |
+|  مصطفی  |    ۲ ماه   |    سرور خارج   |
+|  بهداد  |    ۲ ماه   |    سرور خارج   |
+|  بهداد  |    ۱ سال   |      دامین     |
+|حمایت مردمی|   $15.38   | سرور خارج February |
+|حمایت مردمی|   $10.80   | سرور خارج March |
+|   حمایت مردمی      |   $12.66   | سرور خارج April |
+|     حمایت مردمی    |   $17.55   | سرور خارج May |
+|  حمایت مردمی  |   ۲۳۰٬۰۰۰    |      دامین     |
+|     سروش    |   -   | سرور خارج June |
+|   حمایت مردمی      |   $10.44   | سرور خارج July |
+|     بهداد-محمدرضا    |  -   | سرور خارج August |
+|    مریم     |   $20   | سرور خارج September |
+
+
+<p lang="fa" dir="rtl" align="right">لیست حمایت‌های صورت گرفته را میتونید از لینک زیر ببینید</p>
+
+[حمایت‌ها](./donatores.md)
+
+<p lang="fa" dir="rtl" align="right"> تبدیل تومن به دلار (مبلغ تبدیل شامل هزینه جابه‌جایی مثل درصد پی‌پل صراف و ... هست)</p>
+
+
+|   تاریخ  | مقدار |      فی      |
+|:-------:|:----------:|:--------------:|
+|   ۹۷/۱۲/۲۶  |    43$ = 615,000 تومن   |    1$ = 14325 تومن   |
+|   ۹۸/۳/۶  |    25$ = 300,000 تومن   |    1$ = 12000 تومن   |
+
+<p lang="fa" dir="rtl" align="right">موجودی صندوق تا تاریخ ۱۸ مهر</p>
+
+|        ارز        	|   مبلغ  	|
+|:------------------:	|:-------:	|
+|        دلار       	| 1.17  	|
+|        تومن       	|  187,000 	|
+
+
 <h2 lang="fa" dir="rtl" align="right">افزودن به سرویس</h2>
 <p lang="fa" dir="rtl" align="right">اگر از سایت یا سرویسی استفاده می‌کنید که ایران تحریم کرده ولی در این سرویس نیست می‌توانید با زدن ایشو یا افزودن دامین مورد نظر در فایل domains همین ریپو و پول ریکوست به ما اعلام کنید تا اضافش کنیم.</p>
 <h2 lang="fa" dir="rtl" align="right">Android Studio</h2>
@@ -106,10 +120,11 @@ Linux: ~/.gradle/gradle.properties
 <p lang="fa" dir="rtl" align="right">نکته:‌بدون این پلاگین هم میشه از تنظیمات فایرفکس پراکسی رو تغییر داد ولی این دم دسته</p>
 <p lang="fa" dir="rtl" align="right">
   یه فایل foxyproxy-patterns.json وجود داره که میتونید اونو تو افزونه ایمپورت کنید و بدون نیاز به تغییر دادن دستی پراکسی (هربار) یکبار پراکسی رو تنظیم کنید و همیشه بدون نگرانی از تحریم از فایرفاکس استفاده کنید.<br>
-  این فایل توسط <a href="https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator">یک اپلیکیشن ساده تحت NodeJS</a>بدست میاد.
+  این فایل توسط <a href="https://github.com/ShahinSorkh/fod/tree/fp-pattern-creator">یک اپلیکیشن ساده تحت NodeJS</a> بدست میاد.
 </p>
 <br>
-<p>با آپدیت جدید فایرفاکس و بوجود اومدن firefox quantom این افزونه هم به روز شده و متاسفانه امکان ایمپورت پترن ها ازش حذف شده</p>
+<p lang="fa" dir="rtl" align="right">
+همچنین میتونید از افزونه <a href="https://addons.mozilla.org/en-US/firefox/addon/switchyomega/">SwitchyOmega</a> برای فایرفاکس استفاده کنید.</p>
 
 <h2 lang="fa" dir="rtl" align="right">Chrome</h2>
 <p lang="fa" dir="rtl" align="right"><a href="https://github.com/FelisCatus/SwitchyOmega/releases">https://github.com/FelisCatus/SwitchyOmega/releases</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. بعد از وارد کردن اطلاعات پراکسی apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیماتی داره که چه سایت‌هایی از چه پراکسی‌ای رد شند می‌تونید بگید سایت‌هایی که در این سوریس وجود دارند از این پراکسی رد شند و بقیه سایت‌ها به روش دیگری</p>
@@ -121,10 +136,64 @@ Linux: ~/.gradle/gradle.properties
 
 ```
 git config --global http.proxy fodev.org:8118
+git config --global https.proxy fodev.org:8118
 ```
 اگر مشکل حل نشد این لینک رو نگاه کنید
 <https://github.com/freedomofdevelopers/fod/issues/181#issuecomment-416217419>
 
+<p lang="fa" dir="rtl" align="right"> 
+و برای غیر فعال کردن پروکسی دستور
+</p>
+
+
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+<h2 lang="fa" dir="rtl" align="right">خط فرمان لینوکس</h2>
+<p lang="fa" dir="rtl" align="right"> 
+برای نصب اسکریپت اگر از پوسته bash استفاده میکنید این دستور 
+</p>
+
+```sh
+curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+~/.bashrc && source ~/.bashrc
+```
+<p lang="fa" dir="rtl" align="right"> 
+و اگر از پوسته zsh این دستور
+</p>
+
+```sh
+curl https://raw.githubusercontent.com/freedomofdevelopers/fod/master/fodcmd/fod.sh >> \
+~/.zshrc && source ~/.zshrc 
+```
+
+<p lang="fa" dir="rtl" align="right"> 
+برای فعال کردن پروکسی دستور
+</p>
+
+```
+fod --enable
+```
+
+<p lang="fa" dir="rtl" align="right"> 
+و برای غیر فعال کردن پروکسی دستور
+</p>
+
+
+```
+fod --disable
+```
+
+<h2 lang="fa" dir="rtl" align="right">Npm</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده در npm</p>
+
+
+```
+npm config set proxy http://fodev.org:8118
+npm config set https-proxy http://fodev.org:8118
+```
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
