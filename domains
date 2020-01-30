@@ -25,6 +25,7 @@
 .reactjs.org
 .adservice.google.com
 .jhipster.tech
+.algolia.net
 .adobelogin.com
 .adobe.com
 .symfony.com
@@ -116,6 +117,7 @@
 .caddy.community
 .googleadservices.com
 .googletagmanager.com
+.androidstudio.googleblog.com
 .geforce.com
 .socket.io
 .google-analytics.com
@@ -206,6 +208,8 @@
 .googlesource.com
 .polymer-project.org
 .udemy.com
+.udemycdn.com
+.udemycdn-a.com
 .material.io
 .teamviewer.com
 .intel.com
@@ -299,3 +303,8 @@
 .bit.dev
 .clamav.net
 .qt.io
+.forums.cpanel.net
+.nginx.com
+.surveys.google.com
+.jfrog.io
+.csb.app
