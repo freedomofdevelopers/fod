@@ -25,6 +25,7 @@
 .reactjs.org
 .adservice.google.com
 .jhipster.tech
+.algolia.net
 .adobelogin.com
 .adobe.com
 .symfony.com
@@ -116,6 +117,7 @@
 .caddy.community
 .googleadservices.com
 .googletagmanager.com
+.androidstudio.googleblog.com
 .geforce.com
 .socket.io
 .google-analytics.com
@@ -299,3 +301,4 @@
 .bit.dev
 .clamav.net
 .jfrog.io
+.csb.app
