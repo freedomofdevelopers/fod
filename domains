@@ -14,6 +14,7 @@
 .sstatic.net
 .kaggleusercontent.com
 .arcgis.com
+.gravityforms.com
 .eslint.org
 .amazonaws.com
 .google-analytics.com
@@ -328,4 +329,6 @@
 .zeplin.io
 .xkcd.com
 .deployer.org
+.travis-ci.com
+.travis-ci.corg
 .hpe.com
