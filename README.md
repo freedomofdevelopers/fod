@@ -151,6 +151,19 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+<h2 lang="fa" dir="rtl" align="right">Mercurial</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده در hg میتونید از این روش استفاده کنید</p>
+
+```
+http_proxy=http://fodev.org:8118
+https_proxy=https://fodev.org:8118
+```
+<p lang="fa" dir="rtl" align="right">و بعدش به شکل معمول از فرمان hg استفاده کنید</p>
+
+```
+hg clone URL
+```
+
 <h2 lang="fa" dir="rtl" align="right">خط فرمان لینوکس</h2>
 <p lang="fa" dir="rtl" align="right"> 
 برای نصب اسکریپت اگر از پوسته bash استفاده میکنید این دستور 
