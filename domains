@@ -14,6 +14,8 @@
 .sstatic.net
 .kaggleusercontent.com
 .arcgis.com
+.gravityforms.com
+.igdb.com
 .eslint.org
 .amazonaws.com
 .google-analytics.com
@@ -51,7 +53,6 @@
 .php.net
 .mybridge.co
 .githubusercontent.com
-.slack.com
 .play.google.com
 .algolia.com
 .algolianet.com
@@ -251,7 +252,6 @@
 .gitlab-static.net
 .releases.hashicorp.com
 .livefyre.com
-.slack-edge.com
 .cloudera.com
 .apache.org
 .vagrantup.com
@@ -328,3 +328,12 @@
 .zeplin.io
 .xkcd.com
 .deployer.org
+.heroku.com
+.travis-ci.com
+.travis-ci.org
+.hpe.com
+.fedoramagazine.org
+.datastudio.google.com
+.stackshare.io
+.cloudbees.com
+.red.com
