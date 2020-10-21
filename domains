@@ -40,6 +40,9 @@
 .symfony.com
 .classroom.google.com
 .csb.app
+.flutter-io.cn
+.dartlang.org
+.flutter.dev
 .paypal.com
 .web.dev
 .c9.io
@@ -59,6 +62,7 @@
 .developer.google.com
 .photodune.net
 .videohive.net
+.balena.io
 .laravel.com
 .salesforce.com
 .expo.io
@@ -273,7 +277,6 @@
 .ni.com
 .graphql.org
 .altera.com
-.chocolatey.org
 .microchip.com
 .codesandbox.io
 .spotify.com
@@ -305,6 +308,7 @@
 .events.google.com
 .unsplash.com
 .k8s.io
+.packagecloud.io
 .coursera-apps.org
 .coursera.com
 .javacardos.com
@@ -337,3 +341,9 @@
 .stackshare.io
 .cloudbees.com
 .red.com
+.remove.bg
+.fedoraproject.org
+.consul.io
+.mozilla.org
+.bigbluebutton.org
+.openvpn.net
