@@ -213,9 +213,9 @@ npm config set https-proxy http://fodev.org:8118
 <h4 lang="fa" dir="rtl" align="right">برای نصب در Ubuntu/Debian</h4>
 <p lang="fa" dir="rtl" align="right">ویرایش فایل زیر و افزودن</p>
 
-`‍‍‍‍‍‍‍‍‍‍/etc/apt/apt.conf.d/proxy.conf`
+`/etc/apt/apt.conf.d/proxy.conf`
 
-`‍Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";`
+`Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";`
 
 <h4 lang="fa" dir="rtl" align="right">برای استفاده در docker</h4>
 
