@@ -232,5 +232,11 @@ systemctl daemon-reload
 systemctl restart docker
 ```
 
+<h2 lang="fa" dir="rtl" align="right">WakaTime</h2>
+<h4 lang="fa" dir="rtl" align="right">VSCode Extension</h4>
+<p lang="fa" dir="rtl" align="right">
+داخل برنامه دکمه F1 رو بزنید و بعد تایپ کنید Wakatime: Proxy و پروکسی http://fodev.org:8118 رو بزنید
+</p>
+
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
