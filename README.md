@@ -105,10 +105,8 @@ port:8118
 ```
 systemProp.http.proxyHost=fodev.org
 systemProp.http.proxyPort=8118
-systemProp.http.nonProxyHosts=*.jitpack.io, *.maven.org
 systemProp.https.proxyHost=fodev.org
 systemProp.https.proxyPort=8118
-systemProp.https.nonProxyHosts=*.jitpack.io, *.maven.org
 ```
 
 <p lang="fa" dir="rtl" align="right">فایل gradle.properties سراسری در مسیرهای زیر قرار دارد(در صورت عدم وجود فایل، به صورت دستی ایجاد کنید):</p>
