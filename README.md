@@ -158,7 +158,7 @@ git config --global --unset https.proxy
 
 ```
 http_proxy=http://fodev.org:8118
-https_proxy=https://fodev.org:8118
+https_proxy=http://fodev.org:8118
 ```
 <p lang="fa" dir="rtl" align="right">و بعدش به شکل معمول از فرمان hg استفاده کنید</p>
 
