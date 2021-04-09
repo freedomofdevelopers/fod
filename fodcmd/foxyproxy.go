@@ -3,41 +3,39 @@ package main
 import (
 	"encoding/json"
 	"io"
-	"strings"
 )
 
 type foxyPattern struct {
-	Enabled       bool   `json:"enabled"`
-	Name          string `json:"name"`
-	Pattern       string `json:"pattern"`
-	IsRegEx       bool   `json:"isRegEx"`
-	CaseSensitive bool   `json:"caseSensitive"`
-	BlackList     bool   `json:"blackList"`
-	MultiLine     bool   `json:"multiLine"`
+	Title     string `json:"title"`
+	Pattern   string `json:"pattern"`
+	Active    bool   `json:"active"`
+	Enabled   bool   `json:"enabled"`
+	Type      int    `json:"type"`
+	Protocols int    `json:"protocols"`
 }
 
 type foxyStruct struct {
-	Patterns []foxyPattern `json:"patterns"`
+	WhitePatterns []foxyPattern `json:"whitePatterns"`
+	BlackPatterns []foxyPattern `json:"blackPatterns"`
 }
 
 func nameToFoxyPattern(in string) string {
-	return strings.Replace(in, ".", "*", 1) + "/*"
+	return "*" + in
 }
 
 func foxyProxy(target io.Writer, domains ...string) error {
 	all := foxyStruct{
-		Patterns: make([]foxyPattern, len(domains)),
+		WhitePatterns: make([]foxyPattern, len(domains)),
 	}
 
 	for i := range domains {
-		all.Patterns[i] = foxyPattern{
-			true,
+		all.WhitePatterns[i] = foxyPattern{
 			domains[i],
 			nameToFoxyPattern(domains[i]),
-			false,
-			false,
-			false,
-			false,
+			true,
+			true,
+			1,
+			1,
 		}
 	}
 	enc := json.NewEncoder(target)

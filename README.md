@@ -53,7 +53,7 @@ port:8118
 |:-------:|:----------:|:--------------:|
 |   سروش  |    ۱ سال   |    سرور خارج   |
 |  بکتوری |    ۱ سال   |   سرور ایران   |
-|   i12e  |    از خرداد ۹۷ تا کنون   |   سرور ایران   |
+|   i12e  |    از خرداد ۹۷ تا اسفند ۹۸   |   سرور ایران   |
 | محمدرضا |    ۴ ماه   |    سرور خارج   |
 |  مصطفی  |    ۲ ماه   |    سرور خارج   |
 |  بهداد  |    ۲ ماه   |    سرور خارج   |
@@ -67,6 +67,10 @@ port:8118
 |   حمایت مردمی      |   $10.44   | سرور خارج July |
 |     بهداد-محمدرضا    |  -   | سرور خارج August |
 |    مریم     |   $20   | سرور خارج September |
+|   اینفرا هیروز  |    از ۹۹ تا کنون   |   سرور ایران   |
+|  اینفرا هیروز  |    سال ۹۹   |      دامین     |
+|    بهداد     |  -   | سرور خارج October 2019 - December 2020 |
+|    عارف     |   -   | سرور خارج January - حال حاضر |
 
 
 <p lang="fa" dir="rtl" align="right">لیست حمایت‌های صورت گرفته را میتونید از لینک زیر ببینید</p>
@@ -81,12 +85,12 @@ port:8118
 |   ۹۷/۱۲/۲۶  |    43$ = 615,000 تومن   |    1$ = 14325 تومن   |
 |   ۹۸/۳/۶  |    25$ = 300,000 تومن   |    1$ = 12000 تومن   |
 
-<p lang="fa" dir="rtl" align="right">موجودی صندوق تا تاریخ ۱۸ مهر</p>
+<p lang="fa" dir="rtl" align="right">موجودی صندوق تا تاریخ ۲۲ اسفند ۹۹</p>
 
 |        ارز        	|   مبلغ  	|
 |:------------------:	|:-------:	|
 |        دلار       	| 1.17  	|
-|        تومن       	|  187,000 	|
+|        تومن       	|  1,470,500 	|
 
 
 <h2 lang="fa" dir="rtl" align="right">افزودن به سرویس</h2>
@@ -101,10 +105,8 @@ port:8118
 ```
 systemProp.http.proxyHost=fodev.org
 systemProp.http.proxyPort=8118
-systemProp.http.nonProxyHosts=*.jitpack.io, *.maven.org
 systemProp.https.proxyHost=fodev.org
 systemProp.https.proxyPort=8118
-systemProp.https.nonProxyHosts=*.jitpack.io, *.maven.org
 ```
 
 <p lang="fa" dir="rtl" align="right">فایل gradle.properties سراسری در مسیرهای زیر قرار دارد(در صورت عدم وجود فایل، به صورت دستی ایجاد کنید):</p>
@@ -156,7 +158,7 @@ git config --global --unset https.proxy
 
 ```
 http_proxy=http://fodev.org:8118
-https_proxy=https://fodev.org:8118
+https_proxy=http://fodev.org:8118
 ```
 <p lang="fa" dir="rtl" align="right">و بعدش به شکل معمول از فرمان hg استفاده کنید</p>
 
@@ -213,9 +215,9 @@ npm config set https-proxy http://fodev.org:8118
 <h4 lang="fa" dir="rtl" align="right">برای نصب در Ubuntu/Debian</h4>
 <p lang="fa" dir="rtl" align="right">ویرایش فایل زیر و افزودن</p>
 
-`‍‍‍‍‍‍‍‍‍‍/etc/apt/apt.conf.d/proxy.conf`
+`/etc/apt/apt.conf.d/proxy.conf`
 
-`‍Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";`
+`Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";`
 
 <h4 lang="fa" dir="rtl" align="right">برای استفاده در docker</h4>
 
@@ -229,6 +231,12 @@ Environment="HTTPS_PROXY=http://fodev.org:8118"
 systemctl daemon-reload
 systemctl restart docker
 ```
+
+<h2 lang="fa" dir="rtl" align="right">WakaTime</h2>
+<h4 lang="fa" dir="rtl" align="right">VSCode Extension</h4>
+<p lang="fa" dir="rtl" align="right">
+داخل برنامه دکمه F1 رو بزنید و بعد تایپ کنید Wakatime: Proxy و پروکسی http://fodev.org:8118 رو بزنید
+</p>
 
 <p lang="fa" dir="rtl" align="right">ادامه دارد</p>
 <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
