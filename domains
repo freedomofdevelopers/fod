@@ -22,6 +22,8 @@
 .jenkins.org
 .rubygems.org
 .ruby-doc.org
+.k8s.io
+.gcr.io
 .sstatic.net
 .kaggleusercontent.com
 .arcgis.com
