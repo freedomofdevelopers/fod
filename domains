@@ -44,7 +44,6 @@
 .leech.com
 .lightstep.com
 .optimizely.com
-.google-analytics.com
 .branch.io
 .serverfault.com
 .stackexchange.com
@@ -146,7 +145,6 @@
 .envato-static.com
 .newrelic.com
 .google.ai
-.dartlang.org
 .gitlab.io
 .flutter.io
 .ai.google
@@ -161,13 +159,10 @@
 .androidstudio.googleblog.com
 .geforce.com
 .socket.io
-.google-analytics.com
 .googleusercontent.com
 .en25.com
 .tinypng.com
 .fsdn.com
-.algolianet.com
-.algolia.net
 .justpaste.it
 .demandbase.com
 .appspot.com
@@ -230,7 +225,6 @@
 .mongodb.com
 .swaggerhub.com
 .envato.com
-.adobe.com
 .apps.admob.com
 .grafana.com
 .cp.maxcdn.com
@@ -247,7 +241,6 @@
 .toggl.com
 .docker.com
 .docker.io
-.gcr.io
 .datacamp.com
 .googlesource.com
 .polymer-project.org
@@ -322,7 +315,6 @@
 .hyper.is
 .serialport.io
 .curd.io
-.gitpod.io
 .wikia.com
 .fluttercrashcourse.com
 .developer.samsung.com
@@ -339,13 +331,11 @@
 .getbootstrap.com
 .events.google.com
 .unsplash.com
-.k8s.io
 .packagecloud.io
 .coursera-apps.org
 .coursera.com
 .javacardos.com
 .getcaddy.com
-.caddyserver.com
 .bit.dev
 .clamav.net
 .qt.io
@@ -353,14 +343,12 @@
 .nginx.com
 .surveys.google.com
 .jfrog.io
-.csb.app
 .yarnpkg.com
 .kaggle.net
 .battlecode.org
 .cljdoc.org
 .vuetifyjs.com
 .wpastra.com
-.flutter.dev
 .zeplin.io
 .xkcd.com
 .deployer.org
@@ -378,7 +366,6 @@
 .consul.io
 .mozilla.org
 .bigbluebutton.org
-.flaticon.com
 .openvpn.net
 .alpinelinux.org
 .yajrabox.com
