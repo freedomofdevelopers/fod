@@ -9,12 +9,15 @@
 .microblink.com
 .bluemix.net
 .huggingface.co
+.hotjar.com
 .convertio.me
 .convertio.co
 .ipinfo.io
 .pytorchlightning.ai
 .ifconfig.co
 .ipwhois.app
+.wandb.ai
+.exceedlms.com
 .bit.ly
 .mi.com
 .cnet.com
@@ -55,6 +58,7 @@
 .gcr.io
 .sstatic.net
 .kaggleusercontent.com
+.debian.org
 .arcgis.com
 .gravityforms.com
 .igdb.com
@@ -452,6 +456,10 @@
 .deno.land
 .minio.io
 .nvcr.io
+.opendev.org
+.pypa.io
+.pythonhosted.org
+.cirros-cloud.net
 .bestbuy.com
 .cloudam.xyz
 .dashboardpack.com
