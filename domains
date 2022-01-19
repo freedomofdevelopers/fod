@@ -6,16 +6,22 @@
 .upwork.com
 .bazel.build
 .wallpaperget.com
+.withgoogle.com
 .microblink.com
 .bluemix.net
 .huggingface.co
+.services.google.com
+.slidesgo.com
 .hotjar.com
 .convertio.me
 .convertio.co
 .ipinfo.io
+.openreview.net
+.ieee.org
 .pytorchlightning.ai
 .ifconfig.co
 .ipwhois.app
+.earthengine.google.com
 .wandb.ai
 .exceedlms.com
 .bit.ly
@@ -127,6 +133,7 @@
 .laravel.com
 .salesforce.com
 .expo.io
+.expo.dev
 .clients.google.com
 .telerik.com
 .audiojungle.net
@@ -480,3 +487,6 @@
 .templatemag.com
 .themepixels.me
 .wrappixel.com
+.azul.com
+.go.dev
+.plotly.com
