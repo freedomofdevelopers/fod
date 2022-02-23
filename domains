@@ -12,14 +12,17 @@
 .huggingface.co
 .services.google.com
 .slidesgo.com
+.azure.com
 .hotjar.com
 .convertio.me
 .convertio.co
 .ipinfo.io
 .openreview.net
+.ieee.com
 .ieee.org
 .pytorchlightning.ai
 .ifconfig.co
+.rapidapi.com
 .ipwhois.app
 .earthengine.google.com
 .wandb.ai
@@ -494,5 +497,6 @@
 .serverpilot.io
 .pytorch.org
 .insomnia.rest
+.planet.com
 .axocdn.com
 .gitkraken.com
