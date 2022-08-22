@@ -2,7 +2,15 @@
 .android.com
 .amp.dev
 .prezi.com
+.siteground.com
+.machinelearningmastery.com
 .teamtreehouse.com
+.machinelearningmastery.com
+.mintegral.com
+.deepmind.com
+.grammarly.com
+.helm.sh
+.redis.com
 .codegrepper.com
 .yandex.com
 .upwork.com
@@ -11,6 +19,7 @@
 .grow.google
 .wallpaperget.com
 .time.google.com
+.postman.com
 .withgoogle.com
 .microblink.com
 .bluemix.net
@@ -33,6 +42,7 @@
 .earthengine.google.com
 .wandb.ai
 .sitefinity.com
+.tomtom.com
 .exceedlms.com
 .bit.ly
 .mi.com
@@ -71,6 +81,7 @@
 .rubygems.org
 .ruby-doc.org
 .k8s.io
+.kubernetes.io
 .gcr.io
 .sstatic.net
 .kaggleusercontent.com
@@ -517,3 +528,15 @@
 .netdata.cloud
 .app.netdata.cloud
 .chat.google.com
+.figma.com
+.maxmind.com
+.rabbitmq.com
+.redis.io
+.ansible.com
+.cloudfunctions.net
+.webcatalog.io
+.maxcdn.com
+.visualstudio.com
+.notion.so
+.lens.google.com
+.dart.dev

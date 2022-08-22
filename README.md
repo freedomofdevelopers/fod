@@ -235,6 +235,12 @@ systemctl daemon-reload
 systemctl restart docker
 ```
 
+<h4 lang="fa" dir="rtl" align="right">برای استفاده در Dockerfile</h4>
+
+```Dockerfile
+ENV HTTPS_PROXY="http://fodev.org:8118"
+```
+
 <h2 lang="fa" dir="rtl" align="right">WakaTime</h2>
 <h4 lang="fa" dir="rtl" align="right">VSCode Extension</h4>
 <p lang="fa" dir="rtl" align="right">
