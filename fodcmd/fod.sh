@@ -19,11 +19,20 @@ function fod(){
             unset NO_PROXY
             echo "disable fod proxy !"
         ;;
+        "--status" | "-s")
+            if [[ $http_proxy == 'http://fodev.org:8118/' ]]
+            then
+                echo 'fod proxy is ENABLED !'
+            else
+                echo 'fod proxy is DISABLED !'
+            fi
+        ;;
         *)
-            echo "Usage : fod [-e | --enable] [-d | --disable]"
+            echo "Usage : fod [-e | --enable] [-d | --disable] [-s | --status]"
             echo "Example : "
-            echo "  fod --enable for enable fod proxy "
-            echo "  fod --disable for disable fod proxy "
+            echo "  fod --enable to enable fod proxy "
+            echo "  fod --disable to disable fod proxy "
+            echo "  fod --status to check fod proxy status "
         ;;
     esac
 }
