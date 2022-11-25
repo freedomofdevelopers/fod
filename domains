@@ -562,3 +562,4 @@
 .dart.dev
 .visualstudio.com
 .dartpad.dev
+.registry.k8s.io
