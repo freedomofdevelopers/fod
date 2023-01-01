@@ -1,3 +1,4 @@
+.djangoproject.com
 .fodev.org
 .android.com
 .amp.dev
@@ -9,8 +10,10 @@
 .bazel.build
 .teamtreehouse.com
 .xero.com
+.awsstatic.com
 .vultr.com
 .hetzner.cloud
+.hetzner.company
 .hetzner.com
 .hetzner.de
 .linode.com
@@ -563,3 +566,4 @@
 .visualstudio.com
 .dartpad.dev
 .pkg.dev
+.js.org
