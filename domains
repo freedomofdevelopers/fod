@@ -565,5 +565,6 @@
 .dart.dev
 .visualstudio.com
 .dartpad.dev
+.registry.k8s.io
 .pkg.dev
 .js.org
