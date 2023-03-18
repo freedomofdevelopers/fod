@@ -3,10 +3,10 @@ function fod(){
     case $1 in
         "--enable" | "-e")
             export http_proxy=http://fodev.org:8118/
-            export https_proxy=https://fodev.org:8118/
+            export https_proxy=http://fodev.org:8118/
             export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
             export HTTP_PROXY=http://fodev.org:8118/
-            export HTTPS_PROXY=https://fodev.org:8118/
+            export HTTPS_PROXY=http://fodev.org:8118/
             export NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
             echo "enable fod proxy !"
         ;;
