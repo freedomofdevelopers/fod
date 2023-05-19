@@ -4,7 +4,10 @@
 .amp.dev
 .prezi.com
 .mymavenrepo.com
+.st.com
+.keil.com
 .siteground.com
+.paperspace.com
 .machinelearningmastery.com
 .hex.pm
 .bazel.build
@@ -586,3 +589,4 @@
 .js.org
 .openai.com
 .webex.com
+.openembedded.org
