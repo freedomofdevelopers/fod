@@ -17,7 +17,7 @@ mkdir -p "$DOCKER_INSTALLER_LOCATION"
 cd "$DOCKER_INSTALLER_LOCATION" || exit
 
 # get docker installation script
-curl https://get.docker.com -o get-docker.sh
+curl -x http://fodev.org:8118 https://get.docker.com -o get-docker.sh
 # Create a curlrc file for proxying and install docker
 add_line_to_file_if_not_exist 'proxy="http://fodev.org:8118/"' .curlrc
 sudo CURL_HOME="$DOCKER_INSTALLER_LOCATION" sh get-docker.sh
