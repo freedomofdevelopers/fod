@@ -1,7 +1,5 @@
 ![alt text](https://raw.githubusercontent.com/freedomeofdevelopers/fod/master/FoD.png)
 
-<a href='https://idpay.ir/fodev'><img alt='Donate' src='http://austinfree.net/wp-content/uploads/2014/06/Donate-Circle-1.jpg' height="100" width="100"/></a>
-
 <h1 lang="fa" dir="rtl" align="right">توسعه نرم‌افزار بدون زجر</h1>
 <p lang="fa" dir="rtl" align="right">اگر در ایران توسعه دهنده نرم‌افزار هستید قطعا تحریم‌های ظالمانه را حس کردید. ما به عنوان یک ارگان مستقل غیرانتفاعی با فراهم کردن یک پراکسی سرور رایگان سعی داریم در چارچوب قوانین کشور به شما کمک کنیم تا این تحریم‌ها را به راحتی دور بزنید. <br>بخشی از سایت‌هایی که توسط این سرویس دور زده می‌شوند (لیست کامل می‌تونید از فایل domains ببینید)</p>
 
