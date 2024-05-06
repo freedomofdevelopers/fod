@@ -604,3 +604,4 @@
 .buf.build
 .pkg.jenkins.io
 .downloads.arduino.cc
+.dl.k8s.io
